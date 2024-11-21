@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoplay Video Test</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <video id="FV" loop autoplay style="width: 100%;">
+        <source src="./assets/video/FV.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+    <video id="main-video" controls style="width: 100%;">
+        <source src="./assets/video/LP.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="btn-div">
+        <button class="glow-on-hover" id="detailBtn" type="button">詳しくはこちら</button>
+    </div>
+
+    <div class="btn-div">
+        <button class="glow-on-hover" id="topBtn" type="button">ホームページへ</button>
+    </div>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
